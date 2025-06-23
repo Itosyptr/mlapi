@@ -1,0 +1,28 @@
+BALANCED VOICE RECOGNITION MODEL INFORMATION
+=======================================================
+Training Date: 2025-06-23 10:03:51.034957
+Original Dataset: /content/drive/MyDrive/ito/ML Suara
+Balanced Dataset: /content/drive/MyDrive/ito/ML_Suara_Balanced
+Number of Classes: 7
+Classes: Faiq WAV, Hazbi WAV, Ito WAV, Unknown, suara tambahan faiq, suara tambahan hazbi, suara tambahan ito
+Total Samples: 1850
+Training Samples: 1480
+Test Samples: 370
+Feature Dimensions: 80
+Final Test Accuracy: 98.38%
+Final Test Loss: 0.0673
+Training Method: Balanced dataset + class weights
+Model Architecture: Improved (256-128-64 neurons)
+
+Original vs Balanced Dataset:
+  Original: 2468 samples (40.0% unknown)
+  Balanced: 1850 samples (0.0% unknown)
+
+Balanced samples per class:
+  Faiq WAV: 217 samples
+  Hazbi WAV: 225 samples
+  Ito WAV: 269 samples
+  Unknown: 370 samples
+  suara tambahan faiq: 260 samples
+  suara tambahan hazbi: 250 samples
+  suara tambahan ito: 259 samples
